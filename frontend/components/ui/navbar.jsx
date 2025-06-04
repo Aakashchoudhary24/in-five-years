@@ -6,43 +6,30 @@ import {
   NavigationMenuList,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuTrigger,
-  NavigationMenuContent,
   NavigationMenuViewport,
   NavigationMenuIndicator
 } from "./navigation-menu"
 
 export default function Navbar() {
   return (
-    <NavigationMenu className="py-4">
+    <NavigationMenu className="py-4 text-2xl justify-center align-center justify-self-center">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Home</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink href="/">Welcome</NavigationMenuLink>
-          </NavigationMenuContent>
+          <NavigationMenuLink href="/">Home</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>About</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink href="/about">Our Story</NavigationMenuLink>
-          </NavigationMenuContent>
+          <NavigationMenuLink href="/about">About</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink href="/projects">Recent Work</NavigationMenuLink>
-          </NavigationMenuContent>
+          <NavigationMenuLink href="/projects">Projects</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Contact</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink href="/contact">Reach Out</NavigationMenuLink>
-          </NavigationMenuContent>
+          <NavigationMenuLink href="/hobbies">Hobbies</NavigationMenuLink>
         </NavigationMenuItem>
+        
       </NavigationMenuList>
 
       <NavigationMenuIndicator />
