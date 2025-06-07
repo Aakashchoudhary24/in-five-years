@@ -15,19 +15,19 @@ export default function Navbar() {
     <NavigationMenu className="py-4 text-2xl justify-center align-center justify-self-center">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/">Home</NavigationMenuLink>
+          <NavigationMenuLink href="/">HOME</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about">About</NavigationMenuLink>
+          <NavigationMenuLink href="/about">ABOUT</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuLink href="/projects">Projects</NavigationMenuLink>
+          <NavigationMenuLink href="/explore">EXPLORE</NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuLink href="/hobbies">Hobbies</NavigationMenuLink>
+          <NavigationMenuLink href="/contact">CONTACT</NavigationMenuLink>
         </NavigationMenuItem>
         
       </NavigationMenuList>
