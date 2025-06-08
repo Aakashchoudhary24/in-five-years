@@ -2,8 +2,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme/theme-provider"
 
 export const metadata = {
-  title: "In Five Years",
-  description: "My five year journey",
+  title: "Lifemaxxing",
+  description: "My personal website",
 };
 
 export default function RootLayout({ children }) {
