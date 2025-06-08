@@ -9,10 +9,12 @@ import {
   NavigationMenuViewport,
   NavigationMenuIndicator
 } from "./navigation-menu"
+import { ThemeToggle } from "../theme/theme-toggle"
 
 export default function Navbar() {
   return (
-    <NavigationMenu className="py-4 text-2xl justify-center align-center justify-self-center">
+    <nav className="justify-center align-center justify-self-center w-[80vw] overflow-hidden">
+      <NavigationMenu className="py-4 text-2xl justify-self-center">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuLink href="/">HOME</NavigationMenuLink>
@@ -35,5 +37,7 @@ export default function Navbar() {
       <NavigationMenuIndicator />
       <NavigationMenuViewport />
     </NavigationMenu>
+    <ThemeToggle/>
+    </nav>
   )
 }
