@@ -7,8 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="relative flex top-45 justify-center py-3">
-        <div className="w-[90vw] overflow-hidden z-10 text-center">
+        <div className="relative flex-col text-center top-45 justify-self-center w-[90vw]">
           <h1 className="text-[220px] font-bold wrap-break-word leading-tight">
             LIFEMAXXING
           </h1>
@@ -16,7 +15,6 @@ export default function Home() {
             <em>~ Aakash Choudhary</em>
           </span>
         </div>
-      </div>
     </>
   );
 }

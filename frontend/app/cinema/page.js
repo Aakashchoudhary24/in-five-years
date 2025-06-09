@@ -32,7 +32,7 @@ export default function Cinema() {
               </Card>
             </DialogTrigger>
             <DialogContent
-              className="max-w-none w-[80vw] max-h-[70vh] overflow-auto"
+              className="max-w-none pt-5 max-h-[70vh] overflow-auto"
               style={{
                 scrollbarWidth: "none", 
                 msOverflowStyle: "none", 
