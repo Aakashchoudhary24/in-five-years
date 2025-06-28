@@ -5,16 +5,16 @@ import Navbar from "@/components/ui/navbar";
 import { format } from "date-fns";
 
 const habits = [
-  "avoided sugar",
-  "avoided fries",
-  "proper sleep",
-  "cardio circuit",
-  "trained core",
-  "strength/dumbbells",
-  "doomscrolled",
-  "github",
-  "stoic",
-  "learned",
+  "Sugarless",
+  "No Oil",
+  "Rest",
+  "Cardio",
+  "Core",
+  "Strength",
+  "No-Scroll / Unplugged",
+  "Code",
+  "Control / Resist",
+  "Study",
 ];
 
 function generateDates(numDays) {
