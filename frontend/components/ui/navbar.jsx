@@ -35,6 +35,10 @@ export default function Navbar() {
           <NavigationMenuItem>
             <NavigationMenuLink href="/tracker">TRACKER</NavigationMenuLink>
           </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuLink href="/wishlist">WISHLIST</NavigationMenuLink>
+          </NavigationMenuItem>
         </NavigationMenuList>
 
         <NavigationMenuIndicator />
