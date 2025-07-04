@@ -17,7 +17,7 @@ export default function Explore() {
           </Link>
           <Link href="/learning">
             <div className="cursor-pointer flex items-center justify-center h-[300px] w-[350px] border-2 border-border text-[20px] font-bold">
-              LEARNING
+              BLOG
             </div>
           </Link>
           <Link href="/skills">
@@ -25,9 +25,9 @@ export default function Explore() {
               SKILLS
             </div>
           </Link>
-          <Link href="/fitness">
+          <Link href="/health">
             <div className="cursor-pointer flex items-center justify-center h-[300px] w-[350px] border-2 border-border text-[20px] font-bold">
-              FITNESS
+              PHYSIQUE
             </div>
           </Link>
           <Link href="/reflection">
